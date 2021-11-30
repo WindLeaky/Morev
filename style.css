@@ -1,0 +1,80 @@
+#main {
+    text-align: center;
+    color: blueviolet;
+    margin-top: 100px;
+  }
+
+
+
+
+#footer {
+    text-align: center;
+    color:white;
+}
+
+
+#soon {
+    text-align: center;
+    color:white;
+    font-size: 1cm;
+}
+
+#tuned {
+    text-align: center;
+    color:white;
+    font-size: 1cm;
+    background-color: aqua;
+    display: inline;
+}
+
+
+#Navigation 
+ul {
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color:blueviolet;
+}
+
+
+#lol {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+html { 
+        background: url(black.jpg.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+          }
